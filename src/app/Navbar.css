@@ -1,0 +1,60 @@
+/* Navbar Container */
+.navbar-container {
+    padding-top: 36px;
+    background-color: #60a5fa; /* Equivalent to Tailwind's bg-blue-400 */
+    width: 100%;
+  }
+  
+  /* Navbar Content */
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Equivalent to a container */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Brand Name */
+  .navbar-brand {
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    font-weight: 400; /* Equivalent to font-normal */
+  }
+  
+  /* Navbar Menu */
+  .navbar-menu {
+    display: none;
+    gap: 40px; /* Equivalent to gap-10 */
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-menu {
+      display: flex;
+      gap: 64px; /* Equivalent to lg:gap-16 */
+    }
+  }
+  
+  /* Menu Link */
+  .menu-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .menu-link a:hover {
+    color: #1e40af; /* Darker blue on hover */
+  }
+  
+  /* Menu Icon */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    .menu-icon {
+      display: none;
+    }
+  }
+  

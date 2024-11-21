@@ -1,0 +1,38 @@
+/* About Container */
+.about-container {
+    padding-top: 128px; /* Equivalent to Tailwind's pt-32 */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Heading Styles */
+  .about-heading {
+    font-size: 2.25rem; /* Equivalent to text-4xl */
+    font-weight: bold;
+    background-color: #60a5fa; /* Equivalent to bg-blue-400 */
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  @media (min-width: 768px) {
+    .about-heading {
+      font-size: 3rem; /* Equivalent to md:text-5xl */
+    }
+  }
+  
+  /* Description Styles */
+  .about-description {
+    color: #d1d5db; /* Equivalent to text-gray-300 */
+    padding-top: 16px; /* Equivalent to pt-4 */
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .about-description {
+      font-size: 1.125rem; /* Slightly larger text on medium screens */
+    }
+  }
+  

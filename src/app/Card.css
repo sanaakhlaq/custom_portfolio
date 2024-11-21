@@ -1,0 +1,65 @@
+/* Card Container */
+.card-container {
+    border: 1px solid #60a5fa; /* Equivalent to border-blue-400 */
+    width: 270px;
+    padding: 16px;
+    background-color: #f9f9f9; /* Optional: for better contrast */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05); /* Adds hover effect for interactivity */
+  }
+  
+  @media (min-width: 640px) {
+    .card-container {
+      width: 250px; /* Adjust width for small screens */
+    }
+  }
+  
+  /* Image Wrapper */
+  .card-image-wrapper {
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 100%; /* Makes image responsive */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 16px;
+    space-y: 16px; /* Spacing between elements */
+  }
+  
+  /* Title */
+  .card-title {
+    font-size: 1.5rem; /* Equivalent to text-4xl */
+    font-weight: 200; /* Equivalent to font-extralight */
+    margin-bottom: 10px;
+  }
+  
+  /* Description */
+  .card-description {
+    font-size: 1rem;
+    color: #555; /* Subtle text color */
+  }
+  
+  /* Tags */
+  .card-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap; /* Ensures tags wrap on smaller screens */
+  }
+  
+  .tag {
+    background-color: #60a5fa; /* Blue background for tags */
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  

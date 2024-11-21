@@ -1,0 +1,31 @@
+/* Projects Container */
+.projects-container {
+    padding-top: 128px; /* Equivalent to Tailwind's pt-32 */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem; /* Equivalent to text-1xl */
+  }
+  
+  /* Projects Grid */
+  .projects-grid {
+    display: grid;
+    gap: 40px; /* Equivalent to gap-10 */
+    justify-items: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0px;
+      row-gap: 40px; /* Equivalent to x1:gap-y-10 */
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .projects-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
