@@ -1,0 +1,316 @@
+
+    *{
+     padding: opx;
+     margin: 0px;
+    }
+    body{
+      background-color: black;
+      color: #ffff;
+    }
+    .logo-1{
+      color: rgb(43, 226, 162);;
+    }
+    .nav{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+      
+    }
+    .logo{
+      font-size: 35px;
+      color: rgb(43, 226, 162);
+      padding-left: 20px;
+    }
+    ul{
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      font-size: 20px;
+      color: #ffff;
+      padding: 10px;
+    }
+    .link{
+      color: #ffff;
+      text-decoration: none;
+    }
+    .link:hover{
+      color:rgb(47, 255, 54);
+    }
+    .bt:hover{
+      color: white;
+      background-color:black;
+      
+    }
+    .btn{
+      padding: 10px;
+    }
+    .bt{
+      padding: 5px;
+      font-size: medium;
+      background-color:black;
+      color: #ffff;
+      border-radius: 5px;
+      border-color: blueviolet;
+    }
+    .hero{
+      display: flex;
+      margin-left:20% ;
+      margin-top: 0%;
+    }
+    .img-div{
+     width: 400px;
+     height: 400px;
+     
+     
+    }
+    .img{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      
+      
+      
+    }
+    .info-div{
+      margin-left: 80px;
+
+    }
+    h1{
+      font-size: 70px;
+      color: rgb(43, 226, 162);
+      margin-top: 10%;
+      text-decoration: underline;
+      
+      
+    }
+    .btn2{
+      display: flex;
+      gap: 25px;
+    }
+    .bt1{
+      padding: 5px;
+      font-size: medium;
+      background-color: black;
+      color:white;
+      border-radius: 5px;
+      border-color: blueviolet;
+    }
+    .bt-li{
+      text-decoration: none;
+      color: #ffff;
+    }
+    .heading{
+      font-size: 40px;
+      color: rgb(43, 226, 162);;
+      text-align: center;
+      text-decoration: underline;
+    }
+    .img1{
+      width: 300px;
+      height: 300px;
+      border-radius: 10%;
+      margin-left: 37%;
+      margin-top: -4%;
+      margin-bottom: 3%;
+    }
+    .about-1{
+      color:  blueviolet;
+    }
+    h2{
+      color: blueviolet;
+      text-align: center;
+      font-size: 35px;
+    }
+    p{
+      color: rgba(161, 82, 234, 0.66);
+      text-align: justify;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 20px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+    .btn3{
+      display: flex;
+      gap: 30px;
+      text-align: center;
+      justify-content: center;
+    }
+    .icons{
+      font-size: 30px;
+      color: rgb(4, 114, 223);
+
+    }
+    .bt2{
+      background-color: black;
+      color: black;
+    }
+    .skills-h2{
+    font-size: 30px;
+    text-align: left;
+    margin: 20px;
+    color: #ffff;
+    font-weight: 300;
+    margin-left: 10%;
+    
+    }
+    .bar{
+      margin-left: 10%;
+      height: 15px;
+      background-color: rgb(19, 196, 19);
+      width: 450px;
+      border: 2px white solid;
+      border-radius: 20px;
+      
+    }
+    .bar1{
+      margin-left: 10%;
+      height: 15px;
+      background-color: rgba(255, 128, 0, 0.765);
+      width: 300px;
+      border: 2px white solid;
+      border-radius: 20px;
+    }
+    .bar2{
+      margin-left: 10%;
+      height: 15px;
+      background-color: rgba(249, 249, 51, 0.943);
+      width: 400px;
+      border: 2px white solid;
+      border-radius: 20px;
+    }
+    .bar3{
+      margin-left: 10%;
+      height: 15px;
+      background-color: rgba(193, 19, 196, 0.717);
+      width: 250px;
+      border: 2px white solid;
+      border-radius: 20px;
+    }
+    .bar4{
+      margin-left: 10%;
+      height: 15px;
+      background-color: rgb(0, 183, 255);
+      width: 250px;
+      border: 2px white solid;
+      border-radius: 20px;
+    }
+    .project{
+      display: flex;
+      
+      width: 100%;
+    }
+    .pro-h2{
+      font-size: 35px;
+      font-weight: 400;
+      text-align: left;
+      width: 30%;
+      margin-top: 20px;
+      padding-left:2%;
+    }
+    .pro-p{
+      font-size: 20px;
+      text-align: left;
+      margin-right: 50px;
+      width: 70%;
+      color: rgba(137, 43, 226, 0.731);
+      padding-left: 0px;
+    }
+    .main{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      
+    }
+    .card{
+      width: 25%;
+      height: 550px;
+      margin: auto;
+      margin-bottom: 20px;
+      border: 2px solid white;
+      border-radius: 20px;
+    }
+    .img2{
+     width: 84%;
+     height: 70%;
+     margin: 10px;
+     border: 2px solid wheat;
+     border-radius: 5px;
+    }
+    .card-p{
+      font-size: 10px;
+    }
+    /* Contact Section Styles */
+.contactSection {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.contactHeading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+  
+  
+  
+}
+
+.contactText {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* Contact Section Styles */
+.contactSection {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.h1 styles.contactHeading {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+  
+  
+}
+
+.contactText {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+  
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #0070f3; /* Blue color for icons */
+}
+.gmail-info{
+  font-size: 15px;
+  padding-left: 10px;
+}
+.mobile-info{
+  font-size: 15px;
+  padding-left: 10px;
+}
